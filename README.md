@@ -44,6 +44,8 @@ If you prefer not to run pre-compiled binaries on your machine, you can inspect 
 3. Run the script: `python DXF_to_SACS.py`
 4. **Build Your Own EXE:** If you prefer the convenience of an executable but want 100% security transparency, you can easily compile the raw script yourself using the `pyinstaller` library. It takes less than 5 minutes! Simply ask your preferred AI assistant to guide you through the process.
 
+💡 **Tip:** You can find a ready-to-use CAD file named `sample_frame.dxf` inside the `example/` folder of this repository to test the script immediately!
+
 ---
 
 ## ⚠️ Current Limitations
