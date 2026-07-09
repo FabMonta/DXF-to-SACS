@@ -31,11 +31,15 @@ To ensure a perfect conversion, please prepare your DXF file following these sim
 Because company PCs often have strict IT policies regarding unknown executable files, you have two ways to run this tool:
 
 ### Option A: The Ready-to-Use Executable (Fastest)
-1. Go to the **Releases** section on the right side of this page.
-2. Download the compressed archive **`v3.1.0.zip`**. It contains both the executable (`DXF_to_SACSv2.exe`) and a sample CAD file (`sample_frame.dxf`) ready for immediate testing.
-3. Place your `.dxf` file and the `.exe` in the **same folder**.
-4. Double-click the `.exe` to run it. *(Note: Windows SmartScreen might flag it as an "unknown publisher" because it lacks a paid digital certificate. You can safely bypass this).*
-5. A `sacinp.` file will be created in the same folder.
+
+1. **Go to Releases:** Navigate to the **Releases** section on the right side of this repository page.
+2. **Download the ZIP:** Download the compressed archive **`v3.1.0.zip`**. It contains both the executable (`DXF_to_SACS.exe`) and a sample CAD file (`sample_frame.dxf`) ready for immediate testing.
+3. **Extract the Archive:** Unzip the folder anywhere on your computer. 
+   * *To run the test:* The `.exe` and the `sample_frame.dxf` are already placed together.
+   * *To run your own model:* Copy your custom `.dxf` file into this **same folder** alongside the `.exe`.
+4. **Run the Tool:** Double-click the `.exe` file to run the converter.
+   * ⚠️ *Note: Windows SmartScreen might flag it as an "unknown publisher" because it lacks a paid digital certificate. You can safely bypass this by clicking **"More info"** and then **"Run anyway"**.*
+5. **Output Generation:** Follow the quick on-screen prompts. A fully compatible `sacinp.*` text file will be automatically created in the exact same folder.
 
 ### Option B: Run the Python Script (Fully Transparent)
 If you prefer not to run pre-compiled binaries on your machine, you can inspect and run the raw Python code directly:
