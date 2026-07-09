@@ -1,6 +1,6 @@
 # DXF-to-SACS
 
-A Python utility to convert 3D DXF line-geometry into SACS (Bentley) structural input files, featuring an interactive node-distance quality check and layer-to-group mapping.
+A Python utility to convert 3D DXF line-geometry into SACS2025 (Bentley) structural input files, featuring an interactive node-distance quality check and layer-to-group mapping.
 
 # Why?
 
@@ -86,6 +86,7 @@ Inside the `example/` folder you'll find a set of ready-to-use DXF files so you 
 * Supports only `LINE` geometry (Structural wireframes).
 * SACS section properties and material groups must still be assigned manually inside SACS after importing the geometry.
 * **999-Node Maximum:** due to the `J001`–`J999` sequential nomenclature (3-digit padding), the script currently supports a maximum of 999 unique nodes per DXF file to strictly preserve the SACS card spacing format.
+* The Script is tested on the **2025 SACS** version, older version may have different spacing requirement for the elements set-up. 
 
 ---
 
